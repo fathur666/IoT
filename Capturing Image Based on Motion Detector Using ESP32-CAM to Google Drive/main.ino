@@ -1,11 +1,11 @@
 //WiFi's ID & Password
-const char* ssid     = "realm3pro";   //your network SSID
-const char* password = "realme3ppp";   //your network password
+const char* ssid     = "";   //your network SSID
+const char* password = "";   //your network password
 
 //Parameter to Send in Google Drive
-String myScript = "/macros/s/AKfycbzITo914aZAdRvfT7JNwTcNFbLvcfSIVCfyB3WFDfwpOHJB8yVA/exec";    //Create your Google Apps Script and replace the "myScript" path.
-String myFoldername = "&myFoldername=SistemBenam2";
-String myFilename = "&myFilename=ESP32.jpg";
+String myScript = "---";    //Create your Google Apps Script and replace the "myScript" path.
+String myFoldername = "&myFoldername=---";
+String myFilename = "&myFilename=---.jpg";
 String myFile = "&myFile=";
 
 //Important Library

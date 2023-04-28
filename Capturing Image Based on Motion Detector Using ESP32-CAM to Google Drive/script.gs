@@ -1,7 +1,8 @@
 // Fungsi ini akan di jalankan sebagai Web App, artinya dapat menghandle 
-//HTML service untuk berinteraksi dengan fungsi dari server-side Apps Script ini
+// HTML service untuk berinteraksi dengan fungsi dari server-side Apps Script ini
 // Fungsi doPost adalah fungsi khusus untuk melayani POST request
 // e merupakan representasi dari argument yang dikirimkan. Berisikan data-data/parameter dari POST request tersebut
+// Use this in googlescript
 function doPost(e) {
   // Mengambil parameter-parameter dari Data ESP32
   var myFoldername = e.parameter.myFoldername;
